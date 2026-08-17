@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,);
+   
+}
+.container{
+   box-shadow: 0 0 30px rgb(10, 211, 238);
+    position: sticky;
+  unicode-bidi: isolate;
+   z-index: 100;
+}
+.nevcontainer{
+ display: flex;
+    background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  color: white;
+ 
+   
+}
+.nevbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    gap: 150px;
+   border-radius: 1%;
+   justify-content: center;
+    align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: rgba(217, 28, 28, 0.536); 
+  position: sticky;
+  
+}
+
+.logo img{
+   height: 75px;
+   width: 85px;
+   margin-left: 40px;
+}
+.right{
+   justify-content: center;
+   font-size: 40px;
+ 
+ } 
+.list{
+   display: flex;
+   gap: 120px;
+   list-style: none;
+   font-size: 20px;
+   justify-content: center;
+    position: relative;
+   border: 0;
+   color: white;
+}
+
+.list a{
+   color: white;
+   position: relative;
+ 
+}
+.nev2{
+   background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+      font-family: "Sofia", sans-serif;
+       position: sticky;
+  unicode-bidi: isolate;
+   z-index: 100;
+}
+.heading {
+   padding-top: 20px;
+  justify-content: center;
+   justify-items: center;
+   font-size: 40px;
+}
+
+.cardsection2{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ justify-content: space-evenly;
+ /* background-image: linear-gradient(url(./background1.jpg)); */
+ /* background: linear-gradient(to bottom red,black); */
+  /* background-image: linear-gradient(to bottom, red,black); */
+ 
+}
+
+.cardcontainer{
+   padding-top: 50px;
+  display: flex;
+   justify-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   /* background-color: black; */
+   
+   
+  
+}
+.bigcontainer{
+   background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.card{
+background: linear-gradient( 2700deg,rgba(36, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 100%);
+   height: 300px;
+   width: 280px;
+   /* border-radius: 10%; */
+   justify-items: center;
+   color: white;
+   /* background-color: color-mix( red,blue,green); */
+   /* background-image: url(./backgroundcard.jpg); */
+ 
+  
+}
+.card:hover{
+   /* box-shadow: 0 0 2px; */
+   transition: .5s;
+   /* border-radius: 10%; */
+  transform: translatey(7px);
+  cursor: pointer;
+ 
+}
+.imgsection span{
+   position: absolute;
+   z-index: 1;
+   height: 20px;
+   width: 50px;
+   background-color:rgb(159, 40, 40);
+   border-radius: 20%;
+   margin-top: 10px;
+   color: white;
+   justify-items: center;
+   align-items: center;
+
+}
+.imgsection img{
+   height: 220px;
+   width: 230px;
+   margin-top: 10px;
+  border-radius: 5%;
+  position: relative;
+  box-shadow: 0 0px 2px;
+}
+.catogery{
+    padding-top: 30px;
+  justify-content: center;
+   justify-items: center;
+   font-size: 40px;
+}
+.catogerysec{
+   justify-items: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.offer{
+    position: absolute;
+   z-index: 1;
+   height: 20px;
+   width: 30px;
+   background-color: rgb(195, 193, 193);
+   border-radius: 20%;
+   margin-top: 10px;
+
+}
+.rating{
+    position: absolute;
+   z-index: 2;
+   height: 25px;
+   width: 40px;
+   background-color: rgb(236, 201, 4);
+   border-radius: 20%;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   
+}
+.lowerhead p{
+   justify-content: center;
+   font-size: 40px;
+   align-content: center;
+   display: grid;
+   margin-top: 15px;
+}
+.lowercardcontainer{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+    background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+  
+}
+.jeanshead{
+    background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+.jeanshead p{
+    justify-content: center;
+   font-size: 40px;
+   align-content: center;
+   display: grid;
+   margin-top: 15px;
+  
+
+}
+.jeanscard{
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+}
+.discription{
+   height: 100%;
+   width: 1000px;
+   margin-top: 150px;
+   font-size: 30px;
+  font-family: "Sofia", sans-serif;
+  margin-left: 20%;
+   background: radial-gradient(circle,rgba(174, 231, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+

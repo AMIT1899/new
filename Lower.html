@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .lowerhead p {
+            justify-content: center;
+            font-size: 40px;
+            align-content: center;
+            display: grid;
+            margin-top: 15px;
+        }
+
+        .lowercardcontainer {
+            display: flex;
+            justify-content: center;
+            justify-content: space-between;
+            gap: 40px;
+            height: 750px;
+            width: 600px;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+
+        .offer {
+            position: absolute;
+            z-index: 1;
+            height: 20px;
+            width: 30px;
+            background-color: rgb(195, 193, 193);
+            border-radius: 20%;
+            margin-top: 10px;
+
+        }
+
+        .cardcontainer {
+            padding-top: 50px;
+            display: flex;
+            justify-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            /* background-color: black; */
+
+
+        }
+
+        .card {
+            background: linear-gradient(2700deg, rgba(36, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 100%);
+            height: 350px;
+            width: 280px;
+            /* border-radius: 10%; */
+            justify-items: center;
+            color: white;
+            /* background-color: color-mix( red,blue,green); */
+            /* background-image: url(./backgroundcard.jpg); */
+
+
+        }
+
+        .card:hover {
+            /* box-shadow: 0 0 2px; */
+            transition: .5s;
+            /* border-radius: 10%; */
+            transform: translatey(7px);
+            cursor: pointer;
+
+        }
+
+        .imgsection span {
+            position: absolute;
+            z-index: 1;
+            height: 20px;
+            width: 50px;
+            background-color: rgb(159, 40, 40);
+            border-radius: 20%;
+            margin-top: 10px;
+            color: white;
+            justify-items: center;
+            align-items: center;
+
+        }
+
+        .imgsection img {
+            height: 220px;
+            width: 230px;
+            margin-top: 10px;
+            border-radius: 5%;
+            position: relative;
+            box-shadow: 0 0px 2px;
+        }
+
+        .rating {
+            position: absolute;
+            z-index: 2;
+            height: 25px;
+            width: 40px;
+            background-color: rgb(236, 201, 4);
+            border-radius: 20%;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+
+        }   
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="lowerhead">
+        <p>LOWER & Shorts</p>
+    </div>
+
+    <div class="lowercardcontainer">
+        <div class="card">
+            <div class="imgsection">
+                <p class="offer">20%</p>
+                <img src="./lower 1.jpg" alt="">
+                <p class="rating">4.2<i class="fa-regular fa-star"></i></p>
+            </div>
+            <div class="dis">
+                <p>Price: <i class="fa-solid fa-indian-rupee-sign"></i>899</p>
+                <p>Size: Large</p>
+                <p>Dis: black lower</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgsection">
+                <p class="offer">30%</p>
+                <img src="./shorts1.jpg" alt="">
+                <p class="rating">4.5<i class="fa-regular fa-star"></i></p>
+            </div>
+            <div class="dis">
+                <p>Price: <i class="fa-solid fa-indian-rupee-sign"></i>899</p>
+                <p>Size: Large</p>
+                <p>Dis: lower</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgsection">
+                <p class="offer">20%</p>
+                <img src="./shorts5.jpg" alt="">
+                <p class="rating">4.1<i class="fa-regular fa-star"></i></p>
+            </div>
+            <div class="dis">
+                <p>Price: <i class="fa-solid fa-indian-rupee-sign"></i>599</p>
+                <p>Size: Large</p>
+                <p>Dis: cotton short</p>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgsection">
+                <p class="offer">10%</p>
+                <img src="./shorts3.webp    " alt="">
+                <p class="rating">4.3<i class="fa-regular fa-star"></i></p>
+            </div>
+            <div class="dis">
+                <p>Price: <i class="fa-solid fa-indian-rupee-sign"></i>799</p>
+                <p>Size: Large</p>
+                <p>Dis: pack of 3</p>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
